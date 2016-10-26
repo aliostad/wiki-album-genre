@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Rock Wiki Articles - Album Genre Deep Learning Model</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="http://byterot.blogspot.co.uk/">Ali's Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/">Deep Learning with Text</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/">Understanding Convolutional Neaural Network</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://github.com/aliostad/wiki-album-genre">This code on Github</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">See how deep learning goes!</h1>
+                <hr>
+                <p>
+                    Deep Learning Model to predict genre of an album by its name.
+                    Trained for: Rock, Pop, Metal, Rap/Hip-Hop, Country/folk, Electronica, Punk and Dance
+                </p>
+                <a href="#more" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="more">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center" style="font-size:40px">
+                        <h2 class="section-heading">Genre prediction</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-2"><input type="text" id="album1" name="album1" class="form-control"  style="font-size:30px"/></div>
+                <div class="col-lg-4" id="what1" style="font-size:30px"> =&gt; what? </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-2"><input type="text" id="album2" name="album2" class="form-control"  style="font-size:30px"/></div>
+                <div class="col-lg-4" id="what2" style="font-size:30px"> =&gt; what? </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-2"><input type="text" id="album3" name="album3" class="form-control"  style="font-size:30px"/></div>
+                <div class="col-lg-4" id="what3" style="font-size:30px"> =&gt; what? </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-2"><input type="text" id="album4" name="album4" class="form-control"  style="font-size:30px"/></div>
+                <div class="col-lg-4" id="what4" style="font-size:30px"> =&gt; what? </div>
+            </div>
+
+            <div class="row">
+                <div class="text-center">
+                   <a href="javascript:void(0)" class="btn btn-primary btn-xl" style="font-size:40px" id="calculate">predict</a>
+                </div>
+            </div>
+
+            <div class="row" id="results"> </div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+    <script>
+    $(function(){
+
+        function defaultButton(event){
+            var keycode = (event.keyCode ? event.keyCode : (event.which ? event.which : event.charCode));
+            if (keycode == 13) {
+                $("#calculate").click();
+                return false;
+            }
+        }
+
+        $("input").bind("keydown", defaultButton);
+
+        $("#calculate").click(function(){
+            console.log('fash');
+            var
+                url = '/api/v1/album/genre?albums=',
+                album1 = $("#album1").val(),
+                album2 = $("#album2").val(),
+                album3 = $("#album3").val(),
+                album4 = $("#album4").val(),
+                what1 = $('#what1'),
+                what2 = $('#what2'),
+                what3 = $('#what3'),
+                what4 = $('#what4'),
+                resultsDiv = $('#results');
+
+            resultsDiv.empty();
+
+            if (!(album1 + album2 + album3 + album4))
+                return false;
+
+            if(album1)
+                url += album1 + ',';
+            if(album2)
+                url += album2 + ',';
+            if(album3)
+                url += album3 + ',';
+            if(album4)
+                url += album4 + ',';
+
+            url = url.substring(0, url.length - 1);
+
+            console.log(url);
+            var whats = [what1, what2, what3, what4];
+            for (index in whats){
+                whats[index].text();
+            }
+
+            $.ajax({
+                url: url,
+                dataType: 'json',
+                success: function(data, status, jqxhr){
+
+                    for (index in data.results){
+                        whats[index].text(data.results[index]);
+                    }
+
+                },
+                error: function(jqxhr, status, errorText){
+                    resultsDiv.append($('<div/>').text('One of the words did not exist!'));
+                }
+            })
+
+        });
+
+    });
+
+    </script>
+
+</body>
+
+</html>

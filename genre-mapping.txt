@@ -1,0 +1,241 @@
+contemporary gospel	None
+celtic soul	None
+emo revival	None
+christmas songs	None
+edm	None
+musique concrète	None
+chillwave	None
+sludgegrind	None
+children	None
+spoken word	None
+stand-up comedy	None
+doo wop	None
+celtic music	None
+mpb	None
+no wave	None
+black funeral doom	None
+new-age	None
+riot grrrl	None
+illbient	None
+new age music	None
+a cappella	None
+contemporary r&b	None
+doo-wop	None
+choral	None
+orchestra	None
+inuit throat singing	None
+funeral doom	None
+avant-garde music	None
+international	None
+drone-doom	None
+surf music	None
+screamo	None
+trip-hop	None
+worldbeat	None
+audiobook	None
+trip hop	None
+big band	None
+world beat	None
+dark cabaret	None
+congolese	None
+freakbeat	None
+atmospheric sludge	None
+tex-mex	None
+shibuya-kei	None
+freestyle	None
+instrumental	None
+world music	None
+indie acoustic	None
+doom	None
+aggrotech	None
+tropicália	None
+soul	None
+calypso music	None
+dark ambient	None
+jumpstyle	None
+indie	None
+post-industrial	None
+newgrass	None
+darkwave	None
+dark wave	None
+computer music	None
+lounge	None
+free improvisation	None
+comedy	None
+mashup	None
+aor	None
+industrial[citation needed]	None
+acoustic music	None
+red dirt	None
+dunedin sound	None
+bossa nova	None
+new rave	None
+neue deutsche härte	None
+lounge music	None
+chansons	None
+worship	None
+roots	None
+klezmer	None
+christmas music	None
+holiday	None
+irish	None
+chamber music	None
+mod revival	None
+miami bass	None
+minimalism	None
+acoustic	None
+soul music	None
+neo soul	None
+grime	None
+sound collage	None
+grebo	None
+world fusion	None
+baroque	None
+carnival	None
+soundtrack	None
+industrial	None
+post-bop	None
+americana	None
+raï	None
+outsider music	None
+self-help	None
+goregrind	None
+chanson	None
+schlager	None
+speedwood	None
+canterbury scene	None
+adult contemporary maori	None
+vocal	None
+urban contemporary gospel	None
+noise music	None
+british soul	None
+urban	None
+indietronica	None
+crossover	None
+avantgarde	None
+paisley underground	None
+blue-eyed soul	None
+downtown music	None
+drone	None
+surf	None
+heavy metsl	None
+avanzada regia	None
+celtic fusion	None
+library music	None
+southern soul	None
+coldwave	None
+singer	None
+roots music	None
+solo piano	None
+new prog	None
+nasheed	None
+madchester	None
+ethereal wave	None
+jam	None
+black	None
+russian traditional music	None
+children's music	None
+wonky	None
+malian music	None
+singer-songwriter	None
+breakbeat	None
+progressive	None
+emo	None
+children's	None
+southern gospel	None
+gospel	None
+drone doom	None
+worship music	None
+ebm	None
+new wave	None
+neotango	None
+pinoy	None
+tejano	None
+motown	None
+hi-nrg	None
+r&b	None
+various	None
+beat music	None
+latin	None
+martial industrial	None
+deep soul	None
+memphis soul	None
+mariachi	None
+gospel music	None
+pbr&b	None
+chiptune	None
+ac	None
+modern worship	None
+contemporary instrumental	None
+industrial music	None
+abstract	None
+gulf and western	None
+indian devotional music	None
+stoner doom	None
+oi!	None
+ambient	None
+d-beat	None
+american primitivism	None
+blue eyed soul	None
+ambient industrial	None
+celtic	None
+county	None
+ccm	None
+avant-garde	None
+musical	None
+seasonal	None
+alabama ghost music	None
+hard bop	None
+world	None
+son cubano	None
+easy listening	None
+new romantic	None
+zydeco	None
+fusion	None
+psychobilly	None
+rave	None
+opm	None
+nederbeat	None
+calypso	None
+improvised music	None
+american roots	None
+big beat	None
+musical theatre	None
+nu gaze	None
+shoegaze	None
+afrobeat	None
+meditational music	None
+christmas	None
+?	None
+radio drama	None
+noise	None
+power	None
+new wave revival	None
+powerviolence	None
+downtempo	None
+idm	None
+exotica	None
+mixed	None
+ndw	None
+ethnic fusion	None
+minimal music	None
+adult contemporary	None
+holiday music	None
+indian music	None
+contemporary worship	None
+native american music	None
+hawaiian	None
+drum and bass	None
+new orleans r&b	None
+atmospheric drum and bass	None
+latin music	None
+avant garde	None
+lo-fi	None
+ethiopian music	None
+third stream	None
+new age	None
+melodic black	None
+canadian music	None
+gregorian chant	None
+mento	None
+minimal wave	None
