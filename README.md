@@ -25,5 +25,8 @@ To run:
 ```
 python wsgi.py
 ```
+This will bring a GUI to interact with the API:
+![https://pbs.twimg.com/media/CvuZjzBWIAAIbtD.jpg:large](https://pbs.twimg.com/media/CvuZjzBWIAAIbtD.jpg:large)
+
 
 Make sure you change the checkpoint folder to your checkpoint.
