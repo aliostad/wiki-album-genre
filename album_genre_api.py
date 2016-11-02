@@ -34,7 +34,7 @@ for attr, value in sorted(FLAGS.__flags.items()):
     print("{}={}".format(attr.upper(), value))
 print("")
 
-FLAGS.checkpoint_dir = './runs/1477424694/checkpoints/'
+FLAGS.checkpoint_dir = './runs/1477424694/checkpoints/' # 1477424694 1477602229
 # Map data into vocabulary
 vocab_path = os.path.join(FLAGS.checkpoint_dir, "..", "vocab")
 vocab_processor = learn.preprocessing.VocabularyProcessor.restore(vocab_path)

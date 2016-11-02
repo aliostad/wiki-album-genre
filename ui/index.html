@@ -118,7 +118,7 @@
 
     </section>
 
-
+    <div class="modal"><!-- Place at bottom of page --></div>
 
 
     <!-- jQuery -->
@@ -137,6 +137,13 @@
 
     <script>
     $(function(){
+
+        $body = $("body");
+
+        $(document).on({
+            ajaxStart: function() { $body.addClass("loading");    },
+             ajaxStop: function() { $body.removeClass("loading"); }
+        });
 
         function defaultButton(event){
             var keycode = (event.keyCode ? event.keyCode : (event.which ? event.which : event.charCode));
@@ -195,7 +202,7 @@
 
                 },
                 error: function(jqxhr, status, errorText){
-                    resultsDiv.append($('<div/>').text('One of the words did not exist!'));
+                    resultsDiv.append($('<div/>').text(errorText));
                 }
             })
 
