@@ -207,6 +207,3 @@ def load_data_and_labels():
   labels = [genre_vectors[_] for _ in genres]
 
   return [x_text, labels]
-
-
-clean_data()
