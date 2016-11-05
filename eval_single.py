@@ -23,7 +23,12 @@ tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on 
 FLAGS = tf.flags.FLAGS
 FLAGS._parse_flags()
 
-FLAGS.checkpoint_dir = './runs/1477424694/checkpoints/' # 1477424694 1477602229
+checkpoint_folder = os.environ['ALBUM_GENRE_MODEL_CHECKPOINT']
+if checkpoint_folder is None:
+  raise Exception('!!!PLEASE SET ALBUM_GENRE_MODEL_CHECKPOINT!!!')
+
+FLAGS.checkpoint_dir = checkpoint_folder #'./runs/1477424694/checkpoints/' # 1477424694 1477602229
+
 # Map data into vocabulary
 vocab_path = os.path.join(FLAGS.checkpoint_dir, "..", "vocab")
 vocab_processor = learn.preprocessing.VocabularyProcessor.restore(vocab_path)

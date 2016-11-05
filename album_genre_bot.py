@@ -33,14 +33,10 @@ def parse_twitter_date(s):
 @click.option('--consumer_secret', help='Twitter consumer secret')
 @click.option('--token_key', help='Twitter token key')
 @click.option('--token_secret', help='Twitter token secret')
-@click.option('--checkpoints_folder', help='Folder where trained checkpoint stored')
-def respond(consumer_key, consumer_secret, token_key, token_secret, checkpoints_folder):
+def respond(consumer_key, consumer_secret, token_key, token_secret):
   if consumer_key is None:
     print 'usage: python album_genre_bot.py <consumer_key> <consumer_secret> <token_key> <token_secret>'
     return
-
-  if checkpoints_folder is not None:
-    eval_single.checkpoint_dir = checkpoints_folder
 
   api = twitter.Api(consumer_key=consumer_key,
                       consumer_secret=consumer_secret,
