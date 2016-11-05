@@ -49,12 +49,15 @@ def respond(consumer_key, consumer_secret, token_key, token_secret):
     dt = parse_twitter_date(m.created_at)
     new_timestamp = max(dt, new_timestamp)
     if dt > original_timestamp and m.text.startswith(twitterId):
-      genre = predict(clean_text(m.text))
-      status = api.PostUpdate(
-        in_reply_to_status_id=m.id,
-        status='@{} {}'.format(m.user.screen_name, genre))
-      print m.text,
-      print ' ==> ' + genre
+      genre = predict(clean_text(m.text).lower())
+      try:
+        status = api.PostUpdate(
+          in_reply_to_status_id=m.id,
+          status='@{} {}'.format(m.user.screen_name, genre))
+        print m.text,
+        print ' ==> ' + genre
+      except Exception as e:
+        print e
 
   save_time_stamp(new_timestamp)
 
